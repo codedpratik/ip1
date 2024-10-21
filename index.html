@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Application Demo</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Web Application Demo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#section1">Text Formatting</a></li>
+                    <li><a href="#section2">Multimedia</a></li>
+                    <li><a href="#section3">Navigation</a></li>
+                    <li><a href="#section4">Form Controls</a></li>
+                    <li><a href="#section5">Typography</a></li>
+                    <li><a href="#section6">Tables</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <section id="section1">
+                <h2>Different Types of Text Formatting Tags</h2>
+                <p>This is a <strong>strong</strong> tag. It makes text <em>emphasized</em> and this is <b>bold</b> text. This is <i>italicized</i> and this is <mark>highlighted</mark>. <u>Underlined</u> text and <small>small</small> text.</p>
+                <blockquote cite="https://example.com">
+                    This is a blockquote element.
+                </blockquote>
+                <pre>This is preformatted text.
+        It preserves whitespace.
+        </pre>
+            </section>
+    
+            <section id="section2">
+                <h2>Multimedia Elements</h2>
+                <p>Here is an image:</p>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.e53x22OXHFpQktNWhzwl5AHaFv&amp;pid=Api&amp;P=0&amp;h=180" alt="Placeholder Image" width="300" height="200">
+                <p>And here is a video:</p>
+                <video width="320" height="240" controls="">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+    
+            <section id="section3">
+                <h2>Navigation Facility</h2>
+                <p>You can navigate through the page using the navigation bar at the top. Each link scrolls to the relevant section.</p>
+            </section>
+    
+            <section id="section4">
+                <h2>Form Controls</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required="">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required="">
+                    <br><br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                    <br><br>
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <br><br>
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        Subscribe to newsletter
+                    </label>
+                    <br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+    
+            <section id="section5">
+                <h2>Typography Effect with Custom Font</h2>
+                <p style="font-family: 'Roboto', sans-serif;">This text uses the Roboto font. You can see how different it looks compared to the default font.</p>
+            </section>
+    
+            <section id="section6">
+                <h2>Use of Tables</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Occupation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Riya mishra</td>
+                            <td>30</td>
+                            <td>Software Developer</td>
+                        </tr>
+                        <tr>
+                            <td>Drishti rao</td>
+                            <td>25</td>
+                            <td>Graphic Designer</td>
+                        </tr>
+                        <tr>
+                            <td>Sonam shah</td>
+                            <td>40</td>
+                            <td>Project Manager</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    
+        <footer>
+            <p>© 2024 Web Application Demo</p>
+        </footer>
+    
+    
+    </body>
+</html>
